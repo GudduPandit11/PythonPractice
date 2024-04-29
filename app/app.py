@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Route to display the form
 @app.route('/')
 def form():
-    return render_template('form.html')  # Renders the styled HTML form
+    return render_template('index.html')  # Renders the styled HTML form
 
 # Route to handle form submissions
 @app.route('/submit', methods=['POST'])
